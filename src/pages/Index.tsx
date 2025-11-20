@@ -59,10 +59,8 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-primary flex items-center gap-2">
-              <Icon name="Music" size={28} />
-              Музыкальная Школа
-            </h1>
+            <h1 className="text-2xl font-bold text-primary flex items-center gap-2">Сайт учителя музыки
+Дудинского Юрия Анатольевича</h1>
             <div className="hidden md:flex gap-6">
               <button
                 onClick={() => scrollToSection('home')}
@@ -79,9 +77,7 @@ const Index = () => {
               <button
                 onClick={() => scrollToSection('gallery')}
                 className={`transition-colors ${activeSection === 'gallery' ? 'text-primary' : 'text-gray-600 hover:text-primary'}`}
-              >
-                Галерея
-              </button>
+              ></button>
             </div>
             <Button className="hidden md:inline-flex">Записаться</Button>
           </div>
